@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Orders by Item Name</title>
+    <link rel="stylesheet" href="css/tracking.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔎 Track Orders by Item Name</h1>
+
+        <!-- Search Form -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter Item Name" />
+            <button onclick="searchByItem()">Search Order</button>
+        </div>
+
+        <!-- Tracking Results -->
+        <div id="trackingResults" class="results-container">
+            <!-- Search results will appear here -->
+        </div>
+
+        <!-- Back Button -->
+        <div class="back-container">
+            <button onclick="goBack()">⬅️ Back to Inventory</button>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/tracking.js"></script>
+</body>
+
+</html>
