@@ -12,16 +12,18 @@ body {
 
 /* Container */
 .container {
-    width: 80%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 1200px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    max-height: 90vh;
 }
 
 /* Heading */
-h1 {
+h1, h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
@@ -58,6 +60,7 @@ button:hover {
 /* Table Styles */
 .table-container {
     overflow-x: auto;
+    margin-top: 20px;
 }
 
 table {
@@ -93,4 +96,22 @@ th {
 
 .delete-btn {
     background-color: #dc3545;
+}
+
+/* Tracking Link */
+.tracking-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tracking-link a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.tracking-link a:hover {
+    background-color: #0056b3;
 }
